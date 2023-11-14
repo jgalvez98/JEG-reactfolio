@@ -1,28 +1,26 @@
 {
-  "name": "jeg-reactfolio",
+  "name": "portfolio-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "bootstrap": "^5.3.2",
+    "emailjs-com": "^3.2.0",
+    "jquery": "^3.7.1",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.9.1",
-    "react-chrono": "^2.3.1",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.18.0"
   },
   "devDependencies": {
+    "@rollup/plugin-inject": "^5.0.5",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",

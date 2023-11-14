@@ -1,0 +1,15 @@
+a{
+ text-decoration: none;   
+}
+img {
+  width: 30%;
+  height: 40%;
+}
+.bold-text {
+  font-weight: bold;
+}
+@media screen and (max-width: 770px) {
+  .custom-avatar-img-profile {
+    margin-left: 15px;
+  }
+}

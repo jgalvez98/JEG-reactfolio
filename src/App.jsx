@@ -1,29 +1,24 @@
-import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter } from 'react-router-dom';
-import { ThemeProvider } from 'styled-components';
-import useDarkMode from 'use-dark-mode';
-import AppContext from './AppContext';
-import MainApp from './MainApp';
-import GlobalStyles from './theme/GlobalStyles';
-import { lightTheme, darkTheme } from './theme/themes';
+import "./App.css";
+import NavBar from "./components/NavBar/NavBar.jsx";
+// import HeroContainer from "./components/UI/HeroContainer";
+// import AboutMeContainer from "./components/UI/AboutMeContainer";
+// import MySkillsContainer from "./components/UI/MySkillsContainer.jsx";
+// import PortfolioContainer from "./components/UI/PortfolioContainer.jsx";
+// import ContactMeContainer from "./components/UI/contactMeContainer.jsx";
+import Footer from "./components/UI/Footer/Footer.jsx";
+import { Outlet } from "react-router-dom";
+import $ from "jquery";
+window.$ = $;
 
 function App() {
-  window.matchMedia = null;
-  const darkMode = useDarkMode(true);
+ 
 
   return (
-    <AppContext.Provider value={{ darkMode }}>
-      <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
-        <GlobalStyles />
-        <div className="App">
-          <BrowserRouter>
-            <MainApp />
-          </BrowserRouter>
-        </div>
-      </ThemeProvider>
-    </AppContext.Provider>
+    <>
+      <NavBar />
+      <Outlet/>
+      <Footer />
+    </>
   );
 }
 
