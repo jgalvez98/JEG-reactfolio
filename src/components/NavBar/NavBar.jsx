@@ -1,5 +1,4 @@
 import "../NavBar/NavBar.css"
-import cvPath from "../images/junior full stack web developer.pdf"
 import { useState } from "react"
 const NavBar = () => {
 
@@ -31,7 +30,7 @@ const NavBar = () => {
               <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">
                
-                  <li className="nav-item">
+                  <li className="nav-aboutme">
                     <a
                       className="nav-link active black" 
                       aria-current="page"
@@ -41,7 +40,7 @@ const NavBar = () => {
                     </a>
                   </li>
         
-                  <li className="nav-item">
+                  <li className="nav-portfolio">
                     <a
                       className="nav-link active black"
                       aria-current="page"
@@ -50,7 +49,7 @@ const NavBar = () => {
                       PORTFOLIO
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-contact">
                     <a
                       className="nav-link active black"
                       aria-current="page"
@@ -59,11 +58,12 @@ const NavBar = () => {
                       CONTACT
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-resume">
                     <a
                       className="nav-link active black"
                       aria-current="page"
-                      href={cvPath}
+                      href="/resume"
+                      //href={cvPath}
                     >
                       RESUME
                     </a>

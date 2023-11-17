@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import AboutMeContainer from './components/UI/AboutMeContainer';
-import HeroContainer from './components/UI/HeroContainer';
 import PortfolioContainer from './components/UI/PortfolioContainer';
 import ContactMeContainer from './components/UI/contactMeContainer';
 
@@ -13,10 +12,7 @@ const router = createBrowserRouter([
       path: "/",
       element: <App />,
       children: [
-        {
-          index: true,
-          element:  <HeroContainer />
-        }, {
+       {
           path: '/aboutme',
           element: <AboutMeContainer/>
         }, {

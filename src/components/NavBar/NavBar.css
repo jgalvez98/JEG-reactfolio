@@ -3,9 +3,29 @@
   }
   
 .container-fluid {
-  background-color:#E7E7E5 ;
+  background-color:white ;
 }  
-.nav-about{
-background-color: red;
+.nav-aboutme:hover{
+  background-color:gray;
+  transition: 0.7s;
+  border-radius: 10px;
 }
+.nav-portfolio:hover{
+  background-color:gray;
+  transition: 0.7s;
+  border-radius: 10px;
+}
+  
+.nav-contact:hover{
+  background-color:gray;
+  transition: 0.7s;
+  border-radius: 10px;
+}
+  
+.nav-resume:hover{
+  background-color:gray;
+  transition: 0.7s;
+  border-radius: 10px;
+}
+  
   

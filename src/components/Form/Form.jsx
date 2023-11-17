@@ -21,10 +21,14 @@ const Form = ()=>{
         });
         e.target.reset()
     };
-   
+    const valid = (e)=>{
+      e.target.placeholder = "This Field Is Required"
+    }
     return(
         <>
-        <form className="col-10 col-sm-10 col-lg-5" ref={form} onSubmit={sendEmail}>            <div className="mb-3">
+        <form className="col-10 col-sm-10 col-lg-5" ref={form} onSubmit={sendEmail}>
+        <h1 className="white mb-4 font-weight-bold">CONTACT ME</h1>
+        <div className="mb-3">
               <label className="form-label"></label>
               <input
                 type="text"
@@ -32,12 +36,14 @@ const Form = ()=>{
                 name="name"
                 id="formGroupExampleInput"
                 placeholder="Name"
+                onBlur={valid}
+                required
               />
-            </div>
+              </div>
             <div className="mb-3">
               <label className="form-label"></label>
               <input
-                type="text"
+                type="email"
                 className="form-control"
                 name="email"
                 id="formGroupExampleInput2"
