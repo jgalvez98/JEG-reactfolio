@@ -5,21 +5,21 @@ import { ImStackoverflow } from 'react-icons/im' ;
 
 export default function Footer() {
 	return (
-		<footer className="footer pt-1">
-			<div className="container text-center">
+		<footer className="footer" style={{backgroundColor: 'black' }}>
+			<div className="container text-center" style={{ marginTop: '5%'}}>
 				<div>
 					<a className="iconLink" id='git-icon' href='https://github.com/jgalvez98'>
-						<FaGithubSquare size={40} onMouseOver={({target})=>target.style.color="gray"} 
+						<FaGithubSquare size={40} onMouseOver={({target})=>target.style.color="#03a9f4"} 
 						onMouseOut={({target})=>target.style.color="white"} color='white'/>
 					</a>
 					{' '}
-					<a className="iconLink" href='https://www.linkedin.com'>
-						<AiFillLinkedin size={40} onMouseOver={({target})=>target.style.color="gray"} 
+					<a className="iconLink" href='https://www.linkedin.com/signup'>
+						<AiFillLinkedin size={40} onMouseOver={({target})=>target.style.color="#03a9f4"} 
 						onMouseOut={({target})=>target.style.color="white"} color='white'/>
 					</a>
 					{' '}
-					<a className="iconLink" href='https://stackoverflow.com'>
-						<ImStackoverflow  size={40} onMouseOver={({target})=>target.style.color="gray"} 
+					<a className="iconLink" href='https://stackoverflow.com/signup'>
+						<ImStackoverflow  size={40} onMouseOver={({target})=>target.style.color="#03a9f4"} 
 						onMouseOut={({target})=>target.style.color="white"} color='white'/>
 					</a>
 				</div>

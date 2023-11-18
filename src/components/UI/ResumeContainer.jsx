@@ -2,30 +2,20 @@ import "../UI/ResumeContainer.css"
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import PdfFile from "../Form/UM full stack bootcamp invoice 2.pdf";
-//import { FaFileDownload } from 'react-icons/fa';
 
 const ResumeContainer = () => {
   return (
     <Box>
       <div>
-      <h1 className=" title white mb-4 font-weight-bold ">My Resume</h1>
-        <a
-          href={PdfFile}
-          download="JUANE G RESUME"
-          target="_blank"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            paddingTop: "25px",
-          }}
-          rel="noreferrer"
-        >
-        </a>
+        <div class="title">
+          <h1>My Resume</h1>
+          <h1>My Resume</h1>
+        </div>
         <h2
           style={{
             display: "flex",
             justifyContent: "center",
-            textDecoration: "underline",
+            textDecoration: "bold",
           }}
         >
           Front-end Proficiencies
@@ -49,7 +39,7 @@ const ResumeContainer = () => {
           style={{
             display: "flex",
             justifyContent: "center",
-            textDecoration: "underline",
+            textDecoration: "bold",
           }}
         >
           Back-end Proficiencies
@@ -61,7 +51,6 @@ const ResumeContainer = () => {
             paddingRight: "80px",
           }}
         >
-          - HTML
           <br></br>- API's
           <br></br>- Node
           <br></br>- Express
@@ -70,13 +59,28 @@ const ResumeContainer = () => {
           <br></br>- Bootstrap
           <br></br>- REST
           <br></br>- GraphQL
+          <section>
+          </section>
         </p>
       </div>
-      <Button id="resume-button" className="pop-on-hover">
-            My Resume
-          </Button>
+      <a
+      
+          href={PdfFile}
+          download="JUANE G RESUME"
+          target="_blank"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            paddingTop: "25px",
+          }}
+          rel="noreferrer"
+        >
+          <Button id="resume-button" className="pop-on-hover">
+        My Downloadable Resume
+      </Button>
+        </a>
     </Box>
-    
+
   );
 }
 export default ResumeContainer;

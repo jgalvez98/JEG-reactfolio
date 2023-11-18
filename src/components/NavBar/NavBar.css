@@ -1,8 +1,8 @@
 .container-fluid {
-  background-color:white ;
+  background-color:black ;
 }  
 .nav-contact:hover, .nav-resume:hover, .nav-portfolio:hover, .nav-aboutme:hover{
-  background-color:gray;
+  background-color:#03a9f4;
   transition: 0.7s;
   border-radius: 10px;
 }

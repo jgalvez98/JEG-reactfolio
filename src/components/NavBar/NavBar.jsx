@@ -5,10 +5,10 @@ import "../NavBar/NavBar.css"
     <>
     <header className="row bg-color sticky-top">
       <section className="col-12 d-flex justify-content-center text position-absolute">
-        <div className="col-12 bg-white">
+        <div className="col-12 bg-black">
           <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-              <a className="navbar-brand" href="/about">
+              <a className="navbar-brand white" href="/about">
                 <h1>JUANE G</h1>       
               </a>
               <div className="col-md-3 col-lg-4"></div>
@@ -31,7 +31,7 @@ import "../NavBar/NavBar.css"
                       className={
                         currentPage === "about"
                         ?"nav-link active warning" 
-                        :"nav-link black"
+                        :"nav-link white"
                       }
                       aria-current="page"
                       href="/aboutme"
@@ -48,7 +48,7 @@ import "../NavBar/NavBar.css"
                      className={
                       currentPage === "portfolio"
                       ?"nav-link active warning" 
-                      :"nav-link black"
+                      :"nav-link white"
                     }
                     aria-current="page"
                     href="/portfolio"
@@ -64,7 +64,7 @@ import "../NavBar/NavBar.css"
                      className={
                       currentPage === "contact"
                       ?"nav-link active warning" 
-                      :"nav-link black"
+                      :"nav-link white"
                     }
                     aria-current="page"
                     href="/contact"
@@ -80,7 +80,7 @@ import "../NavBar/NavBar.css"
                      className={
                       currentPage === "resume"
                       ?"nav-link active warning" 
-                      :"nav-link black"
+                      :"nav-link white"
                     }
                     aria-current="page"
                     href="resume"

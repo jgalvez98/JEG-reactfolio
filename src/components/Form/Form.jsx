@@ -27,7 +27,10 @@ const Form = () => {
   return (
     <>
       <form className="col-10 col-sm-10 col-lg-5" ref={form} onSubmit={sendEmail}>
-        <h1 className="white mb-4 font-weight-bold">Contact Me</h1>
+      <div class="title">
+          <h1>Contact Me</h1>
+          <h1>Contact Me</h1>
+        </div>
         <div className="mb-3">
           <label className="form-label"></label>
           <input
