@@ -34,7 +34,7 @@ import "../NavBar/NavBar.css"
                         :"nav-link white"
                       }
                       aria-current="page"
-                      href="/aboutme"
+                      href="#aboutme"
                       onClick={() => {
                         handlePageChange("About");
                       }}
@@ -51,7 +51,7 @@ import "../NavBar/NavBar.css"
                       :"nav-link white"
                     }
                     aria-current="page"
-                    href="/portfolio"
+                    href="#portfolio"
                     onClick={() => {
                       handlePageChange("portfolio");
                     }}
@@ -67,7 +67,7 @@ import "../NavBar/NavBar.css"
                       :"nav-link white"
                     }
                     aria-current="page"
-                    href="/contact"
+                    href="#contact"
                     onClick={() => {
                       handlePageChange("contact");
                     }}
@@ -83,7 +83,7 @@ import "../NavBar/NavBar.css"
                       :"nav-link white"
                     }
                     aria-current="page"
-                    href="resume"
+                    href="#resume"
                     onClick={() => {
                       handlePageChange("resume");
                     }}

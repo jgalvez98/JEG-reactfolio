@@ -10,21 +10,21 @@ import ResumeContainer from './components/UI/ResumeContainer' ;
 
 const router = createBrowserRouter([
     {
-      path: "/",
+      path: "#",
       element: <App />,
       children: [
        {
-          path: '/aboutme',
+          path: '#aboutme',
           element: <AboutMeContainer/>
         }, {
-          path: '/portfolio',
+          path: '#portfolio',
           element: <PortfolioContainer />
         }, {
-          path: '/contact',
+          path: '#contact',
           element: <ContactMeContainer />
         },
         {
-          path: '/resume',
+          path: '#resume',
           element: <ResumeContainer />
         }
       ]
