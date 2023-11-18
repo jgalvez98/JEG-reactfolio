@@ -1,7 +1,7 @@
 import "../UI/ResumeContainer.css"
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import PdfFile from "../Form/UM full stack bootcamp invoice 2.pdf";
+import PdfFile from "../Form/Myresume.pdf";
 
 const ResumeContainer = () => {
   return (
