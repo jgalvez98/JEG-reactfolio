@@ -46,7 +46,7 @@ import "../NavBar/NavBar.css"
                   <li className="nav-portfolio">
                     <a
                      className={
-                      currentPage === "about"
+                      currentPage === "portfolio"
                       ?"nav-link active warning" 
                       :"nav-link black"
                     }
@@ -62,7 +62,7 @@ import "../NavBar/NavBar.css"
                   <li className="nav-contact">
                   <a
                      className={
-                      currentPage === "about"
+                      currentPage === "contact"
                       ?"nav-link active warning" 
                       :"nav-link black"
                     }
@@ -78,16 +78,15 @@ import "../NavBar/NavBar.css"
                   <li className="nav-resume">
                   <a
                      className={
-                      currentPage === "about"
+                      currentPage === "resume"
                       ?"nav-link active warning" 
                       :"nav-link black"
                     }
                     aria-current="page"
-                    href="/resume"
+                    href="resume"
                     onClick={() => {
                       handlePageChange("resume");
                     }}
-                      //href={cvPath}
                     >
                       RESUME
                     </a>

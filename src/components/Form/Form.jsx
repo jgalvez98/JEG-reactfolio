@@ -27,7 +27,7 @@ const Form = () => {
   return (
     <>
       <form className="col-10 col-sm-10 col-lg-5" ref={form} onSubmit={sendEmail}>
-        <h1 className="white mb-4 font-weight-bold">CONTACT ME</h1>
+        <h1 className="white mb-4 font-weight-bold">Contact Me</h1>
         <div className="mb-3">
           <label className="form-label"></label>
           <input
@@ -69,4 +69,4 @@ const Form = () => {
     </>
   )
 }
-export default Form
+export default Form;

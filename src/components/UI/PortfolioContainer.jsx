@@ -4,7 +4,8 @@ import React from "react"
 export default function Cards() {
 	return (
 		<div className="container">
-			<div className="row justify-content-center color-red" >
+			<h1 className=" title white mb-4 font-weight-bold ">My Projects</h1>
+			<div className="row justify-content-center" >
 				<div className="card">
 					<img src="./public/note-taker.png" className="card-img" alt="note taker" />
 					<div className="card-body">
@@ -36,7 +37,7 @@ export default function Cards() {
 				</div>
 
 			</div>
-			
+
 			<div className="row justify-content-center">
 
 				<div className="card">

@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import AboutMeContainer from './components/UI/AboutMeContainer';
 import PortfolioContainer from './components/UI/PortfolioContainer';
-import ContactMeContainer from './components/UI/contactMeContainer';
+import ContactMeContainer from './components/UI/ContactMeContainer';
+import ResumeContainer from './components/UI/ResumeContainer' ;
 
 const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
         }, {
           path: '/contact',
           element: <ContactMeContainer />
+        },
+        {
+          path: '/resume',
+          element: <ResumeContainer />
         }
       ]
     },

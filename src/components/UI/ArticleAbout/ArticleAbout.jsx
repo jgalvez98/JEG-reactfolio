@@ -7,7 +7,7 @@ const ArticleAbout = () => {
   return (
     <>
       <article className="col-sm-11 col-md-8 col-lg-6 artclMovmnt">
-        <h1 className="white mb-4 font-weight-bold">ABOUT ME</h1>
+        <h1 className="white mb-4 font-weight-bold">About Me</h1>
         <div className="mx-auto bg-gradient-to-b from-teal-300 rounded-full w-20 h-20 relative overflow-hidden md:h-20 md:w-20 mb-2">
           <img id="avatar" src='/avatar.png' layout="fill" objectFit="cover"/>
         </div>
