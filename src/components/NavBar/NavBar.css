@@ -1,31 +1,13 @@
-.custom-button {
-    border: solid 2px #125126;
-  }
-  
 .container-fluid {
   background-color:white ;
 }  
-.nav-aboutme:hover{
+.nav-contact:hover, .nav-resume:hover, .nav-portfolio:hover, .nav-aboutme:hover{
   background-color:gray;
   transition: 0.7s;
   border-radius: 10px;
 }
-.nav-portfolio:hover{
-  background-color:gray;
-  transition: 0.7s;
-  border-radius: 10px;
-}
-  
-.nav-contact:hover{
-  background-color:gray;
-  transition: 0.7s;
-  border-radius: 10px;
-}
-  
-.nav-resume:hover{
-  background-color:gray;
-  transition: 0.7s;
-  border-radius: 10px;
+.nav-aboutme, .nav-contact, .nav-portfolio, .nav-resume {
+  color: aquamarine !important;
 }
   
   

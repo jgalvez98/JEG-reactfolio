@@ -1,19 +1,15 @@
 import "../NavBar/NavBar.css"
-import { useState } from "react"
-const NavBar = () => {
 
+  function NavBar({ currentPage, handlePageChange }) {
   return (
     <>
     <header className="row bg-color sticky-top">
       <section className="col-12 d-flex justify-content-center text position-absolute">
-        <div className="col-12">
-          <nav className="navbar navbar-expand-lg bg-black">
+        <div className="col-12 bg-white">
+          <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-              <a className="navbar-brand" href="#home">
-                <h1>JUANE G</h1>
-                {" "}
-                
-              
+              <a className="navbar-brand" href="/about">
+                <h1>JUANE G</h1>       
               </a>
               <div className="col-md-3 col-lg-4"></div>
               <button
@@ -32,9 +28,16 @@ const NavBar = () => {
                
                   <li className="nav-aboutme">
                     <a
-                      className="nav-link active black" 
+                      className={
+                        currentPage === "about"
+                        ?"nav-link active warning" 
+                        :"nav-link black"
+                      }
                       aria-current="page"
                       href="/aboutme"
+                      onClick={() => {
+                        handlePageChange("About");
+                      }}
                     >
                       ABOUT
                     </a>
@@ -42,27 +45,48 @@ const NavBar = () => {
         
                   <li className="nav-portfolio">
                     <a
-                      className="nav-link active black"
-                      aria-current="page"
-                      href="/portfolio"
+                     className={
+                      currentPage === "about"
+                      ?"nav-link active warning" 
+                      :"nav-link black"
+                    }
+                    aria-current="page"
+                    href="/portfolio"
+                    onClick={() => {
+                      handlePageChange("portfolio");
+                    }}
                     >
                       PORTFOLIO
                     </a>
                   </li>
                   <li className="nav-contact">
-                    <a
-                      className="nav-link active black"
-                      aria-current="page"
-                      href="/contact"
+                  <a
+                     className={
+                      currentPage === "about"
+                      ?"nav-link active warning" 
+                      :"nav-link black"
+                    }
+                    aria-current="page"
+                    href="/contact"
+                    onClick={() => {
+                      handlePageChange("contact");
+                    }}
                     >
                       CONTACT
                     </a>
                   </li>
                   <li className="nav-resume">
-                    <a
-                      className="nav-link active black"
-                      aria-current="page"
-                      href="/resume"
+                  <a
+                     className={
+                      currentPage === "about"
+                      ?"nav-link active warning" 
+                      :"nav-link black"
+                    }
+                    aria-current="page"
+                    href="/resume"
+                    onClick={() => {
+                      handlePageChange("resume");
+                    }}
                       //href={cvPath}
                     >
                       RESUME
