@@ -31,6 +31,7 @@ Welcome to my portfolio made with react, you will be able to see different proje
   
   ## Sample
 
+<img width="949" alt="sample" src="https://github.com/jgalvez98/JEG-reactfolio/assets/71774194/69565961-5219-441b-b1a3-1162965c5c4b">
 
 
   ## License
