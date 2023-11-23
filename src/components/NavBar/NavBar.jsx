@@ -8,7 +8,7 @@ import "../NavBar/NavBar.css"
         <div className="col-12 bg-black">
           <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-              <a className="navbar-brand white" href="/about">
+              <a className="navbar-brand white" href="#about">
                 <h1>JUANE G</h1>       
               </a>
               <div className="col-md-3 col-lg-4"></div>
@@ -26,15 +26,15 @@ import "../NavBar/NavBar.css"
               <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">
                
-                  <li className="nav-aboutme">
+                  <li className="nav-about">
                     <a
                       className={
-                        currentPage === "about"
+                        currentPage === "About"
                         ?"nav-link active warning" 
                         :"nav-link white"
                       }
                       aria-current="page"
-                      href="#aboutme"
+                      href="#About"
                       onClick={() => {
                         handlePageChange("About");
                       }}
@@ -62,14 +62,14 @@ import "../NavBar/NavBar.css"
                   <li className="nav-contact">
                   <a
                      className={
-                      currentPage === "contact"
+                      currentPage === "Contact"
                       ?"nav-link active warning" 
                       :"nav-link white"
                     }
                     aria-current="page"
-                    href="#contact"
+                    href="#Contact"
                     onClick={() => {
-                      handlePageChange("contact");
+                      handlePageChange("Contact");
                     }}
                     >
                       CONTACT
@@ -78,14 +78,14 @@ import "../NavBar/NavBar.css"
                   <li className="nav-resume">
                   <a
                      className={
-                      currentPage === "resume"
+                      currentPage === "Resume"
                       ?"nav-link active warning" 
                       :"nav-link white"
                     }
                     aria-current="page"
-                    href="#resume"
+                    href="#Resume"
                     onClick={() => {
-                      handlePageChange("resume");
+                      handlePageChange("Resume");
                     }}
                     >
                       RESUME

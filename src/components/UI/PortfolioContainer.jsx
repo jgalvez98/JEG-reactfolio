@@ -1,7 +1,9 @@
 import "../UI/PortfolioContainer.css";
 import React from "react"
 
-export default function Cards() {
+const PortfolioContainer = () => {
+
+
 	return (
 		<div className="container">
 			<div class="title">
@@ -77,4 +79,5 @@ export default function Cards() {
 			</div>
 		</div>
 	);
-}
+};
+export default PortfolioContainer;
