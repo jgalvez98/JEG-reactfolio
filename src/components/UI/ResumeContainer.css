@@ -43,7 +43,7 @@
   }
   
   #resume-button:hover {
-    background-color: #03a9f4;
+    background-color: #03a9f4 !important;
     color: floralwhite;
   }
 
@@ -53,7 +53,7 @@
   }
   h2 {
     background-color:black;
-    color: white;
+    color: white !important;
 
   }
   .title {

@@ -1,5 +1,5 @@
 .container {
-  margin-top: 130px;
+  margin-top: 1px;
 }
 .card {
  width: 20rem;
@@ -28,7 +28,7 @@ img.card-img {
    
 }
  .title {
-  margin-top: 15% !important;
+  margin-top: 10% !important;
   margin-left: 50%;
   margin-bottom: 15%;
   padding-bottom: 1px;

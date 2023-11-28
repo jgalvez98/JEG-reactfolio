@@ -46,14 +46,14 @@ import "../NavBar/NavBar.css"
                   <li className="nav-portfolio">
                     <a
                      className={
-                      currentPage === "portfolio"
+                      currentPage === "Portfolio"
                       ?"nav-link active warning" 
                       :"nav-link white"
                     }
                     aria-current="page"
-                    href="#portfolio"
+                    href="#Portfolio"
                     onClick={() => {
-                      handlePageChange("portfolio");
+                      handlePageChange("Portfolio");
                     }}
                     >
                       PORTFOLIO

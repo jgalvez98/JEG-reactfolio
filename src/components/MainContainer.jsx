@@ -3,7 +3,6 @@ import AboutMeContainer from "./UI/AboutMeContainer";
 import PortfolioContainer from "./UI/PortfolioContainer";
 import ContactMeContainer from "./UI/ContactMeContainer.jsx";
 import ResumeContainer from "./UI/ResumeContainer";
-
 import NavBar from "./NavBar/NavBar";
 import Footer from "./UI/Footer/Footer";
 
