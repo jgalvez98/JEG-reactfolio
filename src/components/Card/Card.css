@@ -2,16 +2,29 @@
   margin-top: 1px;
 }
 .card {
- width: 20rem;
- height:20rem;
+ width: 20rem !important  ;
+ height:20rem !important;
  background-color:white;
 }
 .cardBtn {
-  color: white;
+  color: rgb(243, 175, 49);
   border-radius: 10px;
   background-color: black;
   text-align: center;
 }
+
+.cardBtn2 {
+  color: rgb(243, 175, 49);
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+}
+
+.cardBtn2:hover {
+  background-color:#03a9f4;
+  transition: 0.7s; 
+}
+
 img.card-img {
   height: 90%;
 }
@@ -19,7 +32,7 @@ img.card-img {
   text-align: center;
 }
 .cardBtn:hover {
-  background-color:darkgray;
+  background-color:#03a9f4;
   transition: 0.7s;
 }
 .card:hover{

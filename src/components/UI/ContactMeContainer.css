@@ -8,3 +8,14 @@
     margin-top: 10% !important;
     text-align: center;
   }
+
+  button.btn:hover {
+    background-color: #03a9f4;
+  }
+
+  button.btn {
+    background-color: black;
+    display: flex;
+    margin: auto;
+    color: white !important;
+  }
