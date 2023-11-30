@@ -68,7 +68,7 @@ export default function Cards() {
 				</div>
 
 				<div className="card">
-					<img src="/public/note-taker.jpg" className="card-img" alt="note taker" />
+					<img src="/note-taker.jpg" className="card-img" alt="note taker" />
 					<div className="card-body">
 						<p className="cardText">A note taking app</p>
 						<div className="row justify-content-center">
