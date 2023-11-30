@@ -12,7 +12,7 @@ export default function Cards() {
 			<div className="row d-flex justify-content-center" >
 
 				<div className="card">
-					<img src="/public/weatherapp.jpg" className="card-img" alt="weather forecast" />
+					<img src="/weatherapp.jpg" className="card-img" alt="weather forecast" />
 					<div className="card-body">
 						<p className="cardText">Check a 5 day forecast in any city</p>
 						<div className="row justify-content-center">
@@ -24,7 +24,7 @@ export default function Cards() {
 				</div>
 
 				<div className="card">
-					<img src="/public/recipeasy.jpg" className="card-img" alt="recipeasy" />
+					<img src="/recipeasy.jpg" className="card-img" alt="recipeasy" />
 					<div className="card-body">
 						<p className="cardText">Recipe finder app</p>
 						<div className="row justify-content-center">
@@ -35,7 +35,7 @@ export default function Cards() {
 				</div>
 
 				<div className="card">
-					<img src="/public/cruisecontrol.jpg" className="card-img" alt="cruise planner" />
+					<img src="/cruisecontrol.jpg" className="card-img" alt="cruise planner" />
 					<div className="card-body">
 						<p className="cardText">A cruise planner app</p>
 						<div className="row justify-content-center">
@@ -46,7 +46,7 @@ export default function Cards() {
 				</div>
 
 				<div className="card">
-					<img src="/public/texteditor.jpg" className="card-img" alt="text editor" />
+					<img src="/texteditor.jpg" className="card-img" alt="text editor" />
 					<div className="card-body">
 						<p className="cardText">create notes online or offline</p>
 						<div className="row justify-content-center">
@@ -57,7 +57,7 @@ export default function Cards() {
 				</div>
 
 				<div className="card">
-					<img src="/public/workscheduler.jpg" className="card-img" alt="scheduler" />
+					<img src="/workscheduler.jpg" className="card-img" alt="scheduler" />
 					<div className="card-body">
 						<p className="cardText">A calendar app</p>
 						<div className="row justify-content-center">
